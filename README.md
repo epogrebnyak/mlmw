@@ -3,9 +3,9 @@
 
 Machine Learning My Way (MLMY): a topic list for probability, statistics, econometrics, machine learning, neural nets, productisation, business and social value of the above. Aimed at technically curious, but non-expert reader.
 
-Link to document: https://t.ly/RcA2Q.
+Link to complete document: https://t.ly/RcA2Q.
 
-What's inside? (link above is always newer)
+What's inside? (link above is newer and has more stuff)
 
 ```
 Machine Learning My Way
