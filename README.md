@@ -85,11 +85,6 @@ Corporate and society
 
 Programming and statistical software 
 
-- Programming languages (R, Python, Julia, Mojo) and machine learning libraries. 
-- Companies that sell ML tools and solutions, their valuations and strategy. Open source viability and funding models (eg streamlit). 
-- Proprietary (SAS, MATLAB) vs open source (R, Julia): who won in the statistics market and our hearts.
-- Software documentation as learning tools (great to read even you are not using the package): gretl, eviews. 
-
 Less obvious, more narrow or not so exciting topics.
 
 Prerequisites
