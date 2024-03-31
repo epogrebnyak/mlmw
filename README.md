@@ -1,31 +1,12 @@
 # machine-learning-my-way
 
-
 Machine Learning My Way (MLMY) is a list of topics and selected links aimed at a technically curious, but non-expert reader.
-Topics include probability, statistics, econometrics, machine learning, neural nets, productisation, business and social value of the above. 
+Topics include probability, statistics, econometrics, machine learning, neural nets, productisation, data quality, and business and social value of the above. 
 
 Link to complete document: <https://t.ly/RcA2Q>.
+Subscribe for updates: <https://buttondown.email/mlmy>.
 
-Curious what's inside? See a sample from earlier edition is below. A link above is newer and has more information.
-
-Subscribe for updates:
-
-<form
-  action="https://buttondown.email/api/emails/embed-subscribe/mlmy"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/mlmy', 'popupwindow')"
-  class="embeddable-buttondown-form"
->
-  <label for="bd-email">Enter your email</label>
-  <input type="email" name="email" id="bd-email" />
-  
-  <input type="submit" value="Subscribe" />
-  <p>
-    <a href="https://buttondown.email/refer/mlmy" target="_blank">Powered by Buttondown.</a>
-  </p>
-</form>
-
+Curious what's inside? See a sample from earlier edition below. A link above is newer and has more information.
 
 ```
 Machine Learning My Way
