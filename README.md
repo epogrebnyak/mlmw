@@ -5,7 +5,26 @@ Machine Learning My Way (MLMY): a topic list for probability, statistics, econom
 
 Link to complete document: https://t.ly/RcA2Q.
 
-What's inside? (link above is newer and has more stuff)
+Curious what's inside? See a sample from earlier edition is below. A link above is newer and has more information.
+
+Subscribe for updates:
+
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/mlmy"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/mlmy', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  
+  <input type="submit" value="Subscribe" />
+  <p>
+    <a href="https://buttondown.email/refer/mlmy" target="_blank">Powered by Buttondown.</a>
+  </p>
+</form>
+
 
 ```
 Machine Learning My Way
