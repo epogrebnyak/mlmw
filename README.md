@@ -4,7 +4,7 @@ Machine Learning My Way (MLMY) is a list of topics and selected links aimed at a
 Topics include probability, statistics, econometrics, machine learning, neural nets, productisation, data quality, and business and social value of the above. 
 
 Actions: 
-  - [Get PDF](https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.4.1.pdf)
+  - [Get PDF](https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.4.1.pdf) or [view online](https://docs.google.com/document/d/e/2PACX-1vT9ZkQJDDimZuPgBb7_hUJ40lm8LhqzL45HwIcYRYHw0AQkwA7pcqg0AIE7Gwf3QpAnZ34-BrFrWovO/pub)
   - Subscribe for updates: <https://buttondown.email/mlmy>
   - Telegram: <https://t.me/ml_my_way>
 
