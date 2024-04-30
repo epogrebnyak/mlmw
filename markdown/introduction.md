@@ -6,21 +6,20 @@
 [![Subscribe](https://img.shields.io/badge/buttondown-mlmw-0069ff)](https://buttondown.email/mlmw)
 
 Machine Learning My Way (MLMW) is a list of topics and selected links
-for you to plan your studies from the very beginning or
-identify and fill up your knowledge and skill gaps.
+for you to plan your studies or identify and fill up your knowledge gaps.
 
 Topics covered include probability, statistics, econometrics, machine learning,
-neural nets, data quality, model productization, pipelines and tools
+neural nets, data quality, model productization and tools
 as well as society and business outcomes.
 
 Get the MLMW guide:
 
-- [Get PDF](https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.7.0.pdf) or [view online](https://docs.google.com/document/d/e/2PACX-1vT9ZkQJDDimZuPgBb7_hUJ40lm8LhqzL45HwIcYRYHw0AQkwA7pcqg0AIE7Gwf3QpAnZ34-BrFrWovO/pub).
+- [view online](https://docs.google.com/document/d/e/2PACX-1vT9ZkQJDDimZuPgBb7_hUJ40lm8LhqzL45HwIcYRYHw0AQkwA7pcqg0AIE7Gwf3QpAnZ34-BrFrWovO/pub);
+- download [recent PDF](https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.7.0.pdf);
+- subscribe to the [mailing list](https://buttondown.email/mlmw) for the newest PDF version.
 
-Get updates:
-
-- Subscribe to the [mailing list](https://buttondown.email/mlmw).
-- Join [r/ml_my_way subreddit](https://www.reddit.com/r/ml_my_way/).
-- Join [Telegram group](https://t.me/ml_my_way).
+The MLMW guide is a work in progress and the updated versions come out every one or two weeks.
+You may also want to follow MLMW on [Reddit](https://www.reddit.com/r/ml_my_way/)
+or [Telegram](https://t.me/ml_my_way).
 
 ![image](https://github.com/epogrebnyak/mlmw/assets/9265326/1a638942-5159-4231-8e38-f65a43aea0b8)
