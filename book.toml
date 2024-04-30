@@ -4,3 +4,13 @@ language = "en"
 multilingual = false
 src = "markdown"
 title = "Machine Learning My Way (MLMW)"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+curly-quotes = true
+mathjax-support = false
+copy-fonts = true
+no-section-label = true
+git-repository-url = "https://github.com/epogrebnyak/mlmw/"
+git-repository-icon = "fa-github"
