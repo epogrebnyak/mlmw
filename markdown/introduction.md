@@ -6,11 +6,11 @@
 [![Subscribe](https://img.shields.io/badge/buttondown-mlmw-0069ff)](https://buttondown.email/mlmw)
 
 Machine Learning My Way (MLMW) is a list of topics and selected links
-that should help you plan your studies from the very beginning or
+for you to plan your studies from the very beginning or
 identify and fill up your knowledge and skill gaps.
 
 Topics covered include probability, statistics, econometrics, machine learning,
-deep learning (neural nets), data quality, model productization pipelines and tools
+neural nets, data quality, model productization, pipelines and tools
 as well as society and business outcomes.
 
 Get the MLMW guide:
