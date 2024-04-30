@@ -1,0 +1,6 @@
+[book]
+authors = ["Evgeny Pogrebnyak"]
+language = "en"
+multilingual = false
+src = "markdown"
+title = "Machine Learning My Way (MLMW)"
