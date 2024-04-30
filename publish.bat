@@ -1,3 +1,3 @@
-npx prettier markdown --write
+call npx prettier markdown --write
 mdbook build
 ghp-import -pn book
