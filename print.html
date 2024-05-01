@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="spacer"></li><li class="chapter-item expanded "><div>Theory, models and methods</div></li><li class="chapter-item expanded "><div>Data types, sources and quality</div></li><li class="chapter-item expanded "><div>From research design to model productization</div></li><li class="chapter-item expanded "><div>Software tools</div></li><li class="chapter-item expanded "><div>Business change and society impact</div></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Appendix</div></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mlmw.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="beginner.html">Beginner track</a></li><li class="spacer"></li><li class="chapter-item expanded "><div>Models and methods</div></li><li class="chapter-item expanded "><div>Data types, sources and quality</div></li><li class="chapter-item expanded "><div>From research design to model productization</div></li><li class="chapter-item expanded "><div>Software tools</div></li><li class="chapter-item expanded "><div>Business change and society impact</div></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Appendix</div></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -183,21 +183,126 @@
 <a href="https://www.reddit.com/r/ml_my_way/"><img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=flat&amp;logo=Reddit&amp;logoColor=white" alt="Reddit" /></a>
 <a href="https://buttondown.email/mlmw"><img src="https://img.shields.io/badge/buttondown-mlmw-0069ff" alt="Subscribe" /></a></p>
 <p>Machine Learning My Way (MLMW) is a list of topics and selected links
-for you to plan your studies from the very beginning or
-identify and fill up your knowledge gaps.</p>
+for you to plan your studies or identify and fill up your knowledge gaps.</p>
 <p>Topics covered include probability, statistics, econometrics, machine learning,
-neural nets, data quality, model productization and tools
-as well as society and business outcomes.</p>
+data quality, model productization as well as society and business outcomes
+of ML adoption.</p>
 <p>Get the MLMW guide:</p>
 <ul>
 <li><a href="https://docs.google.com/document/d/e/2PACX-1vT9ZkQJDDimZuPgBb7_hUJ40lm8LhqzL45HwIcYRYHw0AQkwA7pcqg0AIE7Gwf3QpAnZ34-BrFrWovO/pub">view online</a>;</li>
 <li>download <a href="https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.7.0.pdf">recent PDF</a>;</li>
 <li>subscribe to the <a href="https://buttondown.email/mlmw">mailing list</a> for the newest PDF version.</li>
 </ul>
-<p>The MLMW guide is a work in progress and the updated versions come out every one or two weeks.
-You may also want to follow MLMW on <a href="https://www.reddit.com/r/ml_my_way/">Reddit</a>
+<p>You may also want to follow MLMW updates on <a href="https://www.reddit.com/r/ml_my_way/">Reddit</a>
 or <a href="https://t.me/ml_my_way">Telegram</a>.</p>
 <p><img src="https://github.com/epogrebnyak/mlmw/assets/9265326/1a638942-5159-4231-8e38-f65a43aea0b8" alt="image" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="beginner-track"><a class="header" href="#beginner-track">Beginner track</a></h1>
+<p>When asked about how can one study machine learning (ML) and deep learning (DL),
+here is a suggested path that involves two free open textbooks and
+an open video course.</p>
+<h2 id="prerequisites"><a class="header" href="#prerequisites">Prerequisites</a></h2>
+<p>You will need a working knowledge of Python and ability
+to operate with mathematical concepts from linear algebra and calculus.</p>
+<h2 id="core-path"><a class="header" href="#core-path">Core path</a></h2>
+<ol>
+<li>Check you math knowledge with
+<a href="https://mml-book.github.io/">Mathematics for Machine Learning (MML)</a> Part 1.</li>
+<li>Read chapter 8 “When Models Meet Data” in MML for introduction to machine learning.</li>
+<li>Proceed to
+<a href="https://www.statlearning.com/">Introduction to Statistical Learning with Python (ISLP)</a>
+textbook.</li>
+<li>For neural nets start Andrew Ng <a href="https://www.deeplearning.ai/courses/deep-learning-specialization/">Deep Learning Specialization</a>.</li>
+</ol>
+<h2 id="reference-texts"><a class="header" href="#reference-texts">Reference texts</a></h2>
+<p>There are more dense textbooks than ISLP or Andrew Ng course that you can use as references.</p>
+<p>For machine learning they are
+<a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf">Bishop</a>
+and <a href="https://probml.github.io/pml-book/book1.html">Murphy</a>,
+and also <a href="https://people.smp.uq.edu.au/DirkKroese/DSML/">DSML</a> as a summary.</p>
+<p>For deep learning there are three major open textbooks:</p>
+<ul>
+<li><a href="https://www.deeplearningbook.org/">Ian Goodfellow, Yoshua Bengio and Aaron Courville (2016). Deep Learning Book (DLB)</a></li>
+<li><a href="https://d2l.ai/">Aston Zhang, Zack Lipton, Mu Li and Alex Smola (2021). Dive into Deep Learning (d2l).</a></li>
+<li><a href="https://udlbook.github.io/udlbook/">Simon Prince (2023). Understanding Deep Learning (UDL).</a></li>
+</ul>
+<p><code>d2l</code> and <code>UDL</code> are actively maintained with new content being added.</p>
+<h2 id="what-else"><a class="header" href="#what-else">What else?</a></h2>
+<p>You can supplement the core path above with the following:</p>
+<ul>
+<li>
+<p>modern introductory courses on <a href="https://probability4datascience.com/">probability</a>
+and <a href="https://jverzani.github.io/UsingJ/index.html">statistics</a>;</p>
+</li>
+<li>
+<p><a href="https://lectures.scientific-python.org/">scipy lectures</a> is an
+underappreciated resource by authors on foundational <code>scikit-learn</code>
+package themselves;</p>
+</li>
+<li>
+<p>practical books that involve both machine learning theory and programming
+– either of the <a href="https://amueller.github.io/#book">Muller</a>,
+<a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/">Geron</a>
+or <a href="https://themlbook.com/">Birukov</a> (all paid editions);</p>
+</li>
+<li>
+<p>pick a subfield of machine learning like natural language processing (NLP),
+computer vision (CV), reinforcement learning (RL) or robotics;</p>
+</li>
+<li>
+<p>for popular attention and transformers architectures check out talks by
+<a href="https://karpathy.ai/">Andrej Karpathy</a>
+and his <a href="https://github.com/karpathy/nanoGPT">NanoGPT</a> sample code;</p>
+</li>
+<li>
+<p>check out data modelling angle in econometrics (eg. chapter 1, 2, 4 from <a href="https://github.com/jonathandroth/Econ1630_Github">Econ 1630</a>).</p>
+</li>
+</ul>
+<h2 id="roadmap"><a class="header" href="#roadmap">Roadmap</a></h2>
+<pre><code>Math   ML      DL                Subfields
+----   -----   ---------------   ----------------------
+
+MML -&gt; ISLP -&gt; deeplearning.ai -&gt; NLP and Transformers (hot)
+        |                      -&gt; CV
+        |                      -&gt; Agents, robotics and RL
+       Practical:              -&gt; Tabular data and time series
+       - scipy lectures (free)
+       - Muller, Geron or Birukov (paid)
+
+
+Python packages:
+
+       ML             DL
+       ------------   ----------
+       scikit-learn   PyTorch
+                      TensorFlow
+                      Keras
+</code></pre>
+<h2 id="does-reading-this-make-you-a-machine-learning-engineer"><a class="header" href="#does-reading-this-make-you-a-machine-learning-engineer">Does reading this make you a machine learning engineer?</a></h2>
+<p>Not until you make projects for real tasks on real data
+(where textbook examples do not play out that well).</p>
+<h2 id="not-in-scope"><a class="header" href="#not-in-scope">Not in scope</a></h2>
+<p>This page puts no recommendation for various skills
+that are also important for a quantitative modeller or an engineer:</p>
+<ul>
+<li>Python programming, Linux and cloud computing;</li>
+<li>data pipelines and model productisation;</li>
+<li>experiment design and iterative workflows;</li>
+<li>advanced topics in statistics and machine learning;</li>
+<li>business outcomes and metrics of ML adoption.</li>
+</ul>
+<p>Please refer to larger <a href="mlmw.html">MLMW guide</a> for coverage of these topics.</p>
+<!--
+
+## Engineering and data path
+
+```
+Linux -> Python -> Data processing -> Cloud -> Orchestration
+                   - SQL/NoSQL        - AWS    - Apache Airflow
+                   - Hadoop/Spark     - GCS
+                                      - Azure
+
+```
+-->
 
                     </main>
 
