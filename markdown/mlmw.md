@@ -9,8 +9,8 @@ Machine Learning My Way (MLMW) is a list of topics and selected links
 for you to plan your studies or identify and fill up your knowledge gaps.
 
 Topics covered include probability, statistics, econometrics, machine learning,
-neural nets, data quality, model productization and tools
-as well as society and business outcomes.
+data quality, model productization as well as society and business outcomes
+of ML adoption.
 
 Get the MLMW guide:
 
@@ -18,8 +18,7 @@ Get the MLMW guide:
 - download [recent PDF](https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.7.0.pdf);
 - subscribe to the [mailing list](https://buttondown.email/mlmw) for the newest PDF version.
 
-The MLMW guide is a work in progress and the updated versions come out every one or two weeks.
-You may also want to follow MLMW on [Reddit](https://www.reddit.com/r/ml_my_way/)
+You may also want to follow MLMW updates on [Reddit](https://www.reddit.com/r/ml_my_way/)
 or [Telegram](https://t.me/ml_my_way).
 
 ![image](https://github.com/epogrebnyak/mlmw/assets/9265326/1a638942-5159-4231-8e38-f65a43aea0b8)
