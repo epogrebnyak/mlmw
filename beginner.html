@@ -188,13 +188,25 @@
 <blockquote>
 <p>Where do I start?</p>
 </blockquote>
-<p>My suggestion for making a start in machine learning is getting two free textbooks and enrolling into a video course:</p>
+<p>My suggestion for beginners is getting two free textbooks for classic machine learning (ML) and enrolling into a video course for deep learning (DL):</p>
 <ul>
 <li><a href="https://mml-book.github.io/">Mathematics for Machine Learning (MML)</a> by Marc Peter Deisenroth, A. Aldo Faisal and Cheng Soon Ong;</li>
 <li><a href="https://www.statlearning.com/">Introduction to Statistical Learning with Python (ISLP)</a> by Gareth James, Daniela Witten, Trevor Hastie and Rob Tibshirani;</li>
 <li><a href="https://www.deeplearning.ai/courses/deep-learning-specialization/">Deep Learning Specialization</a> by Andrew Ng.</li>
 </ul>
 <p>Links to other textbooks and supplementary materials are provided below.</p>
+<h2 id="roadmap"><a class="header" href="#roadmap">Roadmap</a></h2>
+<pre><code>Math   ML      DL                Subfields
+----   -----   ---------------   -----------------------------
+
+MML -&gt; ISLP -&gt; deeplearning.ai -&gt; NLP and Transformers
+        |                      -&gt; CV
+        |                      -&gt; Agents, robotics and RL
+        |                      -&gt; Tabular data and time series
+       Practical manuals:              
+       - scipy lectures (free)
+       - Muller, Geron or Burkov (paid)
+</code></pre>
 <h2 id="prerequisites"><a class="header" href="#prerequisites">Prerequisites</a></h2>
 <p>You will need a working knowledge of Python and ability to operate with mathematical concepts from linear algebra and calculus.</p>
 <h2 id="core-path"><a class="header" href="#core-path">Core path</a></h2>
@@ -207,23 +219,25 @@
 </ol>
 <h2 id="reference-texts"><a class="header" href="#reference-texts">Reference texts</a></h2>
 <p>There are more dense textbooks than ISLP or Andrew Ng course that you can use as references.</p>
-<p>For machine learning they are
-<a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf">Bishop (2006)</a>
+<p>For classic machine learning they are <a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf">Bishop (2006)</a>
 and <a href="https://probml.github.io/pml-book/book1.html">Murphy (2022)</a>.</p>
-<p>For deep learning there are three major open textbooks:</p>
+<p>For deep learning there are several open textbooks:</p>
 <ul>
 <li><a href="https://www.deeplearningbook.org/">Ian Goodfellow, Yoshua Bengio and Aaron Courville (2016). Deep Learning Book (DLB)</a></li>
-<li><a href="https://d2l.ai/">Aston Zhang, Zack Lipton, Mu Li and Alex Smola (2021). Dive into Deep Learning (d2l).</a></li>
+<li><a href="https://d2l.ai/">Aston Zhang, Zack Lipton, Mu Li and Alex Smola (2021). Dive into Deep Learning (d2l).</a><sup class="footnote-reference"><a href="#1">1</a></sup></li>
 <li><a href="https://udlbook.github.io/udlbook/">Simon Prince (2023). Understanding Deep Learning (UDL).</a></li>
 </ul>
-<p>Note that <code>d2l</code> and <code>UDL</code> were updated in 2023-2024.</p>
+<p>DLB (2016) is a reference text that enjoys <a href="https://scholar.google.ca/citations?view_op=view_citation&amp;hl=en&amp;user=iYN86KEAAAAJ&amp;citation_for_view=iYN86KEAAAAJ:ZeXyd9-uunAC">a continious stream of citations</a>, while d2l and UDL are newer and keep updating code and content.</p>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>This open-source book represents our attempt to make deep learning approachable, teaching readers the concepts, the context, and the code. The entire book is drafted in Jupyter notebooks, seamlessly integrating exposition figures, math, and interactive examples with self-contained code. Our goal is to offer a resource that could (i) be freely available for everyone; (ii) offer sufficient technical depth to provide a starting point on the path to actually becoming an applied machine learning scientist; (iii) include runnable code, showing readers how to solve problems in practice; (iv) allow for rapid updates, both by us and also by the community at large; (v) be complemented by a forum for interactive discussion of technical details and to answer questions. [<a href="https://arxiv.org/abs/2106.11342">arxiv abstract</a>]</p>
+</div>
 <h2 id="what-else"><a class="header" href="#what-else">What else?</a></h2>
 <p>You can supplement the core path above with the following:</p>
 <ul>
 <li>
 <p>introductory courses on probability
 (like <a href="https://probability4datascience.com/">P4D</a>
-or <a href="https://seeing-theory.brown.edu/basic-probability/index.html">Seeing theory</a>)
+or <a href="https://seeing-theory.brown.edu/basic-probability/index.html">Seeing Theory</a>)
 and <a href="https://jverzani.github.io/UsingJ/index.html">statistics</a>;</p>
 </li>
 <li>
@@ -232,14 +246,14 @@ underappreciated resource by the authors on foundational <code>scikit-learn</cod
 package themselves;</p>
 </li>
 <li>
-<p><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook by Jake VanderPlas</a>,
-including <a href="https://jakevdp.github.io/PythonDataScienceHandbook/#5.-Machine-Learning">machine learning chapter</a>
+<p><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a>,
+including <a href="https://jakevdp.github.io/PythonDataScienceHandbook/#5.-Machine-Learning">a chapter on machine learning</a>
 and <a href="https://people.smp.uq.edu.au/DirkKroese/DSML/">DSML</a> textbook;</p>
 </li>
 <li>
-<p>practical books that further combine machine learning concepts and programming practice
-– either of <a href="https://amueller.github.io/#book">Muller</a>,
-<a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/">Geron</a>
+<p>practical books that combine machine learning concepts and programming practice
+– either of <a href="https://amueller.github.io/#book">Müller</a>,
+<a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/">Géron</a>
 or <a href="https://themlbook.com/">Burkov</a> (all are paid editions);</p>
 </li>
 <li>
@@ -255,7 +269,7 @@ and his <a href="https://github.com/karpathy/nanoGPT">NanoGPT</a> sample code;</
 <p>familiarize with approaches to data modelling in econometrics (eg. chapter 1, 2, 4, 5 from <a href="https://github.com/jonathandroth/Econ1630_Github">Econ 1630</a>)</p>
 </li>
 <li>
-<p>glance vocabulary in data analysis as endorsed by the industry leaders like
+<p>glance at data analysis vocabulary as endorsed by the industry leaders like
 <a href="https://developers.google.com/machine-learning/glossary">Google</a>,
 <a href="https://www.mathworks.com/discovery.html">Mathworks</a>,
 <a href="https://h2o.ai/wiki/">H2O</a> and
@@ -266,17 +280,6 @@ and his <a href="https://github.com/karpathy/nanoGPT">NanoGPT</a> sample code;</
 and <a href="https://www.3blue1brown.com/">3Blue1Brown videos by Grant Sanderson</a> make great study companions.</p>
 </li>
 </ul>
-<h2 id="roadmap"><a class="header" href="#roadmap">Roadmap</a></h2>
-<pre><code>Math   ML      DL                Subfields
-----   -----   ---------------   -----------------------------
-
-MML -&gt; ISLP -&gt; deeplearning.ai -&gt; NLP and Transformers
-        |                      -&gt; CV
-        |                      -&gt; Agents, robotics and RL
-       Practical:              -&gt; Tabular data and time series
-       - scipy lectures (free)
-       - Muller, Geron or Burkov (paid)
-</code></pre>
 <h2 id="python-packages"><a class="header" href="#python-packages">Python packages</a></h2>
 <p>Machine learning:</p>
 <ul>
@@ -336,6 +339,22 @@ Linux -> Python -> Data processing -> Cloud -> Orchestration
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
