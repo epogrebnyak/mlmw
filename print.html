@@ -97,7 +97,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mlmw.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="beginner.html">Beginner track</a></li><li class="spacer"></li><li class="chapter-item expanded "><div>Models and methods</div></li><li class="chapter-item expanded "><div>Data types, sources and quality</div></li><li class="chapter-item expanded "><div>From research design to model productization</div></li><li class="chapter-item expanded "><div>Software tools</div></li><li class="chapter-item expanded "><div>Business change and society impact</div></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Appendix</div></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mlmw.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="beginner.html">Beginner track</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Preliminaries</li><li class="chapter-item expanded "><div>Linear algebra</div></li><li class="chapter-item expanded "><div>Calculus</div></li><li class="chapter-item expanded "><a href="probability.html">Probability</a></li><li class="chapter-item expanded "><div>Statistics</div></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">MLMW Guide</li><li class="chapter-item expanded "><div>Models and methods</div></li><li class="chapter-item expanded "><div>Data types, sources and quality</div></li><li class="chapter-item expanded "><div>From research design to model productization</div></li><li class="chapter-item expanded "><div>Software tools</div></li><li class="chapter-item expanded "><div>Business change and society impact</div></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Appendix</div></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -223,7 +223,7 @@ MML -&gt; ISLP -&gt; deeplearning.ai -&gt; NLP and Transformers
         |                      -&gt; CV
         |                      -&gt; Agents, robotics and RL
         |                      -&gt; Tabular data and time series
-       Practical manuals:              
+       Practical manuals:
        - scipy lectures (free)
        - Muller, Geron or Burkov (paid)
 </code></pre>
@@ -272,9 +272,10 @@ and <a href="https://people.smp.uq.edu.au/DirkKroese/DSML/">DSML</a> textbook;</
 </li>
 <li>
 <p>practical books that combine machine learning concepts and programming practice
-– either of <a href="https://amueller.github.io/#book">Müller</a>,
-<a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/">Géron</a>
-or <a href="https://themlbook.com/">Burkov</a> (all are paid editions);</p>
+– either of
+<a href="https://amueller.github.io/#book">Müller</a>,
+<a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/">Géron</a> or
+<a href="https://themlbook.com/">Burkov</a> (all are paid editions);</p>
 </li>
 <li>
 <p>review subfields of machine learning like natural language processing (NLP),
@@ -335,6 +336,26 @@ Linux -> Python -> Data processing -> Cloud -> Orchestration
 
 ```
 -->
+<div style="break-before: page; page-break-before: always;"></div><h1 id="probability"><a class="header" href="#probability">Probability</a></h1>
+<h2 id="beginner"><a class="header" href="#beginner">Beginner</a></h2>
+<ul>
+<li><a href="https://seeing-theory.brown.edu/basic-probability/index.html">Seeing Theory</a> visual textbook.</li>
+<li><a href="https://jverzani.github.io/UsingJ/Inference/distributions.html#fig-distributions">Probability distributions</a>.</li>
+</ul>
+<h2 id="courses"><a class="header" href="#courses">Courses</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo">Statistics 110 (Probability) by Joe Blitzstein</a>.</li>
+</ul>
+<h2 id="reference"><a class="header" href="#reference">Reference</a></h2>
+<ul>
+<li><a href="https://mml-book.github.io/book/mml-book.pdf">Chapter 6 “Probability and Distributions”</a> in the MML book.</li>
+<li><a href="https://probability4datascience.com/">P4D</a>.</li>
+</ul>
+<h2 id="advanced"><a class="header" href="#advanced">Advanced</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=rfKS69cIwHc&amp;list=PL9v9IXDsJkktefQzX39wC2YG07vw7DsQ_&amp;index=1&amp;t=102s">Aubrey Clayton</a> reading of
+<a href="http://www.med.mcgill.ca/epidemiology/hanley/bios601/GaussianModel/JaynesProbabilityTheory.pdf">The Logic of Science by E.T. Jaynes</a>.</li>
+</ul>
 
                     </main>
 
@@ -353,22 +374,6 @@ Linux -> Python -> Data processing -> Cloud -> Orchestration
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
