@@ -1,4 +1,9 @@
-publish:
+brush:
    npx prettier markdown --write
-   mdbook build
-   ghp-import -pn book
+
+build:
+   bin/mdbook clean
+   bin/mdbook build
+
+publish:
+   ghp-import -pn book --cname=trics.me

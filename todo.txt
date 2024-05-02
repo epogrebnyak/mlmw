@@ -1,0 +1,10 @@
+- [ ] publish also typst backend
+
+---
+
+ET Janes - http://www.med.mcgill.ca/epidemiology/hanley/bios601/GaussianModel/JaynesProbabilityTheory.pdf
+https://yerevann.com/a-guide-to-deep-learning/
+https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZP0eZ94AAAAJ&citation_for_view=ZP0eZ94AAAAJ:j8SEvjWlNXcC
+https://github.com/firmai/industry-machine-learning
+https://www.superdatascience.com/771
+
