@@ -1,0 +1,13 @@
+The output.html.google-analytics field has been deprecated; it will be removed in a future release.
+Consider placing the appropriate site tag code into the theme/head.hbs file instead.
+The tracking code may be found in the Google Analytics Admin page.
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E89ZNY364E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E89ZNY364E');
+</script>

@@ -1,4 +1,5 @@
 book
+mdbook
 *.exe
 *.doc 
 *.whl
