@@ -73,7 +73,7 @@ MML -> ISLP -> deeplearning.ai -> NLP and Transformers
 
 - #par()[#link("https://jakevdp.github.io/PythonDataScienceHandbook/")[Python Data Science Handbook], including #link("https://jakevdp.github.io/PythonDataScienceHandbook/#5.-Machine-Learning")[a chapter on machine learning] and #link("https://people.smp.uq.edu.au/DirkKroese/DSML/")[DSML] textbook;]
 
-- #par()[practical books that combine machine learning concepts and programming practice -- either of #link("https://amueller.github.io/#book")[Müller], #link("https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/")[Géron] or #link("https://themlbook.com/")[Burkov] (all are paid editions);]
+- #par()[practical books that combine machine learning concepts and programming practice -- either of #link("https://amueller.github.io/#book")[Müller] (paid edition), #link("https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/")[Géron] (paid edition) or #link("https://themlbook.com/")[Burkov] (paid edition with free preview);]
 
 - #par()[review subfields of machine learning like natural language processing (NLP), computer vision (CV), reinforcement learning (RL) or robotics;]
 
