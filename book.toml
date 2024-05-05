@@ -15,3 +15,6 @@ no-section-label = true
 git-repository-url = "https://github.com/epogrebnyak/mlmw/"
 git-repository-icon = "fa-github"
 cname = "trics.me"
+
+[output.typst.output]
+
