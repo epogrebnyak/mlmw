@@ -77,9 +77,9 @@ You can supplement the core path above with the following:
 
 - practical books that combine machine learning concepts and programming practice
   -- either of
-  [Müller](https://amueller.github.io/#book),
-  [Géron](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) or
-  [Burkov](https://themlbook.com/) (all are paid editions);
+  [Müller](https://amueller.github.io/#book) (paid edition),
+  [Géron](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) (paid edition) or
+  [Burkov](https://themlbook.com/) (paid edition with free preview);
 
 - review subfields of machine learning like natural language processing (NLP),
   computer vision (CV), reinforcement learning (RL) or robotics;
