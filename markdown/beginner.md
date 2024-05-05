@@ -22,7 +22,7 @@ MML -> ISLP -> deeplearning.ai -> NLP and Transformers
         |                      -> Tabular data and time series
        Practical manuals:
        - scipy lectures (free)
-       - Muller, Geron or Burkov (paid)
+       - Muller (paid), Geron (paid) or Burkov (paid, free preview)
 ```
 
 ## Prerequisites

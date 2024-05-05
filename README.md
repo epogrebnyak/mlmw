@@ -1,16 +1,23 @@
-# machine-learning-my-way (early access)
+# Machine Learning My Way (MLMW) -- Early Access 
 
-Machine Learning My Way (MLMW) is a list of topics and selected links
-for you to plan your studies from the very beginning or
-identify and fill up your knowledge and skill gaps.
+Machine Learning My Way (MLMW) blog series is a successor to 
+[Econometrics Navigator](https://epogrebnyak.github.io/econometrics-navigator/) 
+website that I run in 2018-2020. 
 
-Topics covered include probability, statistics, econometrics, machine learning,
-neural nets, data quality, model productization, pipelines and tools
-as well as society and business outcomes.
+My goal for MLMW is to make a clear and concise overview of data modelling 
+that would including statistics, machine learning and neural networks 
+for aspiring modellers, engineers, developpers, business analysts and clients, 
+and governemnt regulators with a special focus on people changing career paths.
 
-Get the MLMW guide:
+The overview is equipped with links to textbooks, summary articles
+and excercises with code or pen and paper that enable you to actually learn.
+I limit exposure to videos and tutorials unless where absolutely necessary.
 
-- [Get PDF](https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.7.0.pdf) or [view online](https://docs.google.com/document/d/e/2PACX-1vT9ZkQJDDimZuPgBb7_hUJ40lm8LhqzL45HwIcYRYHw0AQkwA7pcqg0AIE7Gwf3QpAnZ34-BrFrWovO/pub).
+The MLMW guide exisits in the following forms:
+
+- [Short topic list on machine learning models, tools and productisation](https://docs.google.com/document/d/1mrfpg8J4eejjdAAaGywY797-3770lGe3DqJ5sd0E_60/edit#heading=h.5hihefsyv1km) -- request access to see the Google Docs file;
+- Public long list MLMW guide: [get PDF](https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.7.0.pdf) or [view it online](https://docs.google.com/document/d/e/2PACX-1vT9ZkQJDDimZuPgBb7_hUJ40lm8LhqzL45HwIcYRYHw0AQkwA7pcqg0AIE7Gwf3QpAnZ34-BrFrWovO/pub);
+- several topics already transfered to this website -- check out [Beginner Path](https://trics.me/beginner.html).
 
 Get updates:
 
@@ -18,4 +25,9 @@ Get updates:
 - Join [r/ml_my_way subreddit](https://www.reddit.com/r/ml_my_way/).
 - Join [Telegram group](https://t.me/ml_my_way).
 
-![image](https://github.com/epogrebnyak/mlmw/assets/9265326/1a638942-5159-4231-8e38-f65a43aea0b8)
+<iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:1px #ccc solid !important"
+src="https://buttondown.email/mlmw?as_embed=true"
+></iframe><br /><br />
+
