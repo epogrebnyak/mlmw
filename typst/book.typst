@@ -1,0 +1,156 @@
+#set document(title: "Machine Learning My Way (MLMW)")
+#set document(author: ("Evgeny Pogrebnyak"))
+#set page(paper: "us-letter")
+#set text(size: 11pt)
+#set text(font: "Helvetica")
+#show par: set block(spacing:2em)
+#set par(leading: .8em)
+
+        #show heading: it => [
+            #block(above: 2em, below: 2em, it)
+        ]
+#show link: underline
+#show link: set text(blue)
+#show outline.entry.where(level: 1):it => {
+                                    v(11pt, weak: true)
+                                   strong(it) 
+                                }
+#outline(depth: 2, indent: 2em)
+#pagebreak()
+= Introduction
+#par()[#link("https://www.reddit.com/r/ml_my_way/")[Reddit] #link("https://buttondown.email/mlmw")[Subscribe]]
+#par()[MLMW is a downloadable reference that makes a clear and concise overview  of machine learning that includes modelling concepts, tools and  how to turn them to products that business can use.]
+#par()[The overview is equipped with links to industry cases, reports, textbooks,  summary articles and excercises that enable you to actually learn.  I limit exposure to videos and tutorials unless where absolutely necessary.]
+#par()[MLMW is for aspiring and mature modellers, engineers, developpers, analysts  and business clients who are interested to indentify and fill  the knowledge gaps in machine learning and possibly switch roles  or career paths.]
+=== Get the current version of MLMW
+- request access to #link("https://docs.google.com/document/d/1mrfpg8J4eejjdAAaGywY797-3770lGe3DqJ5sd0E_60/edit#heading=h.5hihefsyv1km")[topic list on machine learning models, tools and productisation]; 
+- download #link("https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.7.0.pdf")[the public guide PDF] or #link("https://docs.google.com/document/d/e/2PACX-1vT9ZkQJDDimZuPgBb7_hUJ40lm8LhqzL45HwIcYRYHw0AQkwA7pcqg0AIE7Gwf3QpAnZ34-BrFrWovO/pub")[view it online].
+=== Subscribe for MLMW updates
+#par()[Get updates by subscribing to the MLMW #link("https://buttondown.email/mlmw")[mailing list]:]
+#pagebreak(weak: true)
+= Beginner track
+#par()[Where do I start?]
+#par()[My suggestion for beginners is getting two free textbooks for classic machine learning (ML) and enrolling into a video course for deep learning (DL):]
+- Mathematics for Machine Learning (MML) by Marc Peter Deisenroth, A. Aldo Faisal and Cheng Soon Ong;
+- #link("https://www.statlearning.com/")[Introduction to Statistical Learning with Python (ISLP)] by Gareth James, Daniela Witten, Trevor Hastie and Rob Tibshirani;
+- Deep Learning Specialization by Andrew Ng.
+#par()[Links to other textbooks and supplementary materials are provided below.]
+=== Roadmap
+``````
+Math   ML      DL                Subfields
+----   -----   ---------------   -----------------------------
+
+MML -> ISLP -> deeplearning.ai -> NLP and Transformers
+        |                      -> CV
+        |                      -> Agents, robotics and RL
+        |                      -> Tabular data and time series
+       Practical manuals:
+       - scipy lectures (free)
+       - Muller (paid), Geron (paid) or Burkov (paid, free preview)
+``````
+=== Prerequisites
+#par()[You will need a working knowledge of Python and ability to operate with mathematical concepts from linear algebra and calculus.]
+=== Core path
++ Check you math knowledge with Mathematics for Machine Learning (MML) Part 1.
++ Read chapter 8 "When Models Meet Data" in MML for introduction to machine learning.
++ Proceed to #link("https://www.statlearning.com/")[Introduction to Statistical Learning with Python (ISLP)] textbook.
++ Read from #raw("scikit-learn") documentation about neural network models.
++ Start Andrew Ng Deep Learning Specialization.
+=== Reference texts
+#par()[There are more dense textbooks than ISLP or Andrew Ng course that you can use as references.]
+#par()[For classic machine learning they are #link("https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf")[Bishop (2006)] and #link("https://probml.github.io/pml-book/book1.html")[Murphy (2022)].]
+#par()[For deep learning there are several open textbooks:]
+- #link("https://www.deeplearningbook.org/")[Ian Goodfellow, Yoshua Bengio and Aaron Courville (2016). Deep Learning Book (DLB)]
+- #link("https://d2l.ai/")[Aston Zhang, Zack Lipton, Mu Li and Alex Smola (2021). Dive into Deep Learning (d2l).][^1]
+- #link("https://udlbook.github.io/udlbook/")[Simon Prince (2023). Understanding Deep Learning (UDL).]
+#par()[DLB (2016) is a reference text that enjoys #link("https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=iYN86KEAAAAJ&citation_for_view=iYN86KEAAAAJ:ZeXyd9-uunAC")[a continious stream of citations], while d2l and UDL are newer and keep updating code and content.]
+#par()[[^1]: This open-source book represents our attempt to make deep learning approachable, teaching readers the concepts, the context, and the code. The entire book is drafted in Jupyter notebooks, seamlessly integrating exposition figures, math, and interactive examples with self-contained code. Our goal is to offer a resource that could (i) be freely available for everyone; (ii) offer sufficient technical depth to provide a starting point on the path to actually becoming an applied machine learning scientist; (iii) include runnable code, showing readers how to solve problems in practice; (iv) allow for rapid updates, both by us and also by the community at large; (v) be complemented by a forum for interactive discussion of technical details and to answer questions. [#link("https://arxiv.org/abs/2106.11342")[arxiv abstract]]]
+=== What else?
+#par()[You can supplement the core path above with the following:]
+- #par()[introductory courses on probability (like #link("https://probability4datascience.com/")[P4D] or #link("https://seeing-theory.brown.edu/basic-probability/index.html")[Seeing Theory]) and #link("https://jverzani.github.io/UsingJ/index.html")[statistics];]
+
+- #par()[#link("https://lectures.scientific-python.org/")[scipy lectures] is an underappreciated resource by the authors on foundational #raw("scikit-learn") package themselves;]
+
+- #par()[#link("https://jakevdp.github.io/PythonDataScienceHandbook/")[Python Data Science Handbook], including #link("https://jakevdp.github.io/PythonDataScienceHandbook/#5.-Machine-Learning")[a chapter on machine learning] and #link("https://people.smp.uq.edu.au/DirkKroese/DSML/")[DSML] textbook;]
+
+- #par()[practical books that combine machine learning concepts and programming practice -- either of #link("https://amueller.github.io/#book")[Müller], #link("https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/")[Géron] or #link("https://themlbook.com/")[Burkov] (all are paid editions);]
+
+- #par()[review subfields of machine learning like natural language processing (NLP), computer vision (CV), reinforcement learning (RL) or robotics;]
+
+- #par()[for popular attention and transformer architectures check out talks by #link("https://karpathy.ai/")[Andrej Karpathy] and his #link("https://github.com/karpathy/nanoGPT")[NanoGPT] sample code;]
+
+- #par()[familiarize with approaches to data modelling in econometrics (eg. chapter 1, 2, 4, 5 from #link("https://github.com/jonathandroth/Econ1630_Github")[Econ 1630])]
+
+- #par()[glance at data analysis vocabulary as endorsed by the industry leaders like #link("https://developers.google.com/machine-learning/glossary")[Google], #link("https://www.mathworks.com/discovery.html")[Mathworks], #link("https://h2o.ai/wiki/")[H2O] and #link("https://www.nvidia.com/en-us/glossary/")[NVIDIA];]
+
+- #par()[last but not least #link("https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw")[StatQuest videos by Josh Starmer] and #link("https://www.3blue1brown.com/")[3Blue1Brown videos by Grant Sanderson] make great study companions.]
+
+=== Python packages
+#par()[Machine learning:]
+- #link("https://scikit-learn.org/stable/index.html")[scikit-learn], see also #link("https://youtu.be/MaJRf9E-jtQ?t=223")[Gaël Varoquaux 2023 interview].
+#par()[Deep learning:]
+- #link("https://pytorch.org/")[PyTorch] (most popular)
+- #link("https://www.tensorflow.org/")[TensorFlow] and #link("https://www.tensorflow.org/guide/keras")[Keras] (easier to learn)
+=== Does reading these materials make you a machine learning engineer?
+#par()[Not until you make projects for real tasks on real data (where textbook examples do not play out that well).]
+=== Not in scope
+#par()[This page puts no recommendation for various skills that are also important for a quantitative modeller or an engineer:]
+- Python programming, Linux and cloud computing;
+- data processing, pipelines and model productisation;
+- experiment design and iterative workflows;
+- advanced topics in statistics and machine learning;
+- domain knowledge, business sense and outcomes of ML adoption.
+#par()[Please refer to larger #link("mlmw.md")[MLMW guide] for coverage of these topics.]
+#pagebreak(weak: true)
+
+                        #set page(
+                            header: none,
+                        )
+                        #heading(level: 1, outlined: true, "Preliminaries")
+                        #pagebreak()
+                        #set page(
+                            header:  text(size: 8pt, fill: gray)[#align(right)[Preliminaries]],
+                        )
+                        
+== Linear algebra
+#pagebreak(weak: true)
+== Calculus
+#pagebreak(weak: true)
+== Probability
+==== Beginner
+- #link("https://seeing-theory.brown.edu/basic-probability/index.html")[Seeing Theory] visual textbook.
+- #link("https://jverzani.github.io/UsingJ/Inference/distributions.html")[Probability distributions].
+==== Courses
+- #link("https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo")[Statistics 110 (Probability) by Joe Blitzstein].
+==== Reference
+- #link("https://mml-book.github.io/book/mml-book.pdf")[Chapter 6 "Probability and Distributions"] in the MML book.
+- #link("https://probability4datascience.com/")[P4D].
+==== Advanced
+- #link("https://www.youtube.com/watch?v=rfKS69cIwHc&list=PL9v9IXDsJkktefQzX39wC2YG07vw7DsQ_&index=1&t=102s")[Aubrey Clayton] reading of #link("http://www.med.mcgill.ca/epidemiology/hanley/bios601/GaussianModel/JaynesProbabilityTheory.pdf")[The Logic of Science by E.T. Jaynes].
+#pagebreak(weak: true)
+== Statistics
+#pagebreak(weak: true)
+#pagebreak(weak: true)
+
+                        #set page(
+                            header: none,
+                        )
+                        #heading(level: 1, outlined: true, "MLMW Guide")
+                        #pagebreak()
+                        #set page(
+                            header:  text(size: 8pt, fill: gray)[#align(right)[MLMW Guide]],
+                        )
+                        
+== Models and methods
+#pagebreak(weak: true)
+== Data types, sources and quality
+#pagebreak(weak: true)
+== From research design to model productization
+#pagebreak(weak: true)
+== Software tools
+#pagebreak(weak: true)
+== Business change and society impact
+#pagebreak(weak: true)
+== Appendix
+#pagebreak(weak: true)
+#pagebreak(weak: true)
