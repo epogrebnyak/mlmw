@@ -6,4 +6,4 @@ build:
    bin/mdbook build
 
 publish:
-   ghp-import -pn book --cname=trics.me
+   ghp-import -pn book/html --cname=trics.me
