@@ -2,7 +2,8 @@
 
 > Where do I start? What to read?
 
-Two free textbooks for math and machine learning (ML) and a video course on deep learning (DL)
+Two free textbooks for math and classic machine learning (ML) 
+and a video course on deep learning (DL) 
 make a solid foundation for beginners:
 
 - [Mathematics for Machine Learning (MML)][mml] by Marc Peter Deisenroth, A. Aldo Faisal and Cheng Soon Ong;
@@ -14,21 +15,33 @@ Links to other textbooks and supplementary materials are provided below.
 ## Roadmap
 
 ```
-Math   ML      DL                Subfields
-----   -----   ---------------   -----------------------------
+Math   ML       DL                  Subfields and data types
+=====  =======  =================   ============================
 
-MML -> ISLP -> deeplearning.ai -> NLP and Transformers
-         |                     -> CV
-         |                     -> Agents, robotics and RL
-         |                     -> Tabular data and time series
+         +------------------------> Tabular data and time series
+         |
+MML  -> ISLP  -> deeplearning.ai -> Text and speech (NLP) 
+(free)  (free)   Deep Learning      Transformers (the T in ChatGPT)
+         |       Specialisation     Computer vision (CV)
+         |       + any of           Reinforcement learning (RL)
+         |       3 free textbooks
+         |           
         Practical manuals:
         - scipy lectures (free)
         - Muller (paid), Geron (paid) or Burkov (free preview)
+
+Python packages
+
+Math:     ML:           DL:                 
+- numpy   scikit-learn  - torch     
+- scipy                 - tf
+                        - keras                       
 ```
 
 ## Prerequisites
 
-You will need a working knowledge of Python and ability to operate with mathematical concepts from linear algebra and calculus.
+You will need a working knowledge of Python and ability to operate with mathematical concepts 
+and notation from linear algebra and calculus.
 
 ## Core path
 
@@ -74,7 +87,7 @@ You can supplement the core path above with the following:
 
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
   including [a chapter on machine learning](https://jakevdp.github.io/PythonDataScienceHandbook/#5.-Machine-Learning)
-  and [DSML](https://people.smp.uq.edu.au/DirkKroese/DSML/) textbook;
+  and the [DSML](https://people.smp.uq.edu.au/DirkKroese/DSML/) textbook (popular in Asia);
 
 - practical books that combine machine learning concepts and programming practice
   -- either of
@@ -82,8 +95,13 @@ You can supplement the core path above with the following:
   [Géron](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) (paid edition) or
   [Burkov](https://themlbook.com/) (free preview);
 
-- review subfields of machine learning like natural language processing (NLP),
-  computer vision (CV), reinforcement learning (RL) or robotics;
+- review major textbooks by subfiled of machine learning:
+  [Jurafsky and Martin](https://web.stanford.edu/~jurafsky/slp3/) 
+  for natural language processing (NLP), 
+  [several texts](https://www.reddit.com/r/computervision/comments/129e3gc/suggestions_for_some_best_books_on_computer_vision/)
+  for computer vision (CV), and
+  [Sutton and Barto](http://incompleteideas.net/book/the-book-2nd.html) 
+  for reinforcement learning (RL);
 
 - for popular attention and transformer architectures check out talks by
   [Andrej Karpathy](https://karpathy.ai/)
@@ -97,20 +115,33 @@ You can supplement the core path above with the following:
   [H2O](https://h2o.ai/wiki/) and
   [NVIDIA](https://www.nvidia.com/en-us/glossary/);
 
-- last but not least [StatQuest videos by Josh Starmer](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
-  and [3Blue1Brown videos by Grant Sanderson](https://www.3blue1brown.com/) make great study companions.
+- last but not least -- watch 
+  [StatQuest videos by Josh Starmer](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
+  and [3Blue1Brown videos by Grant Sanderson](https://www.3blue1brown.com/).
 
 ## Python packages
 
+Tabular data:
+
+- [pandas](https://pandas.pydata.org/) or [polars](https://pola.rs/).
+
+Numeric computation:
+
+- [numpy](https://numpy.org/) and [scipy](https://scipy.org/).
+
+Visualisation:
+
+- [matplotlib](https://matplotlib.org/), but also Plotly, Bokeh and others.
+
 Machine learning:
 
-- [scikit-learn](https://scikit-learn.org/stable/index.html), see also [Gaël Varoquaux 2023 interview](https://youtu.be/MaJRf9E-jtQ?t=223).
+- [scikit-learn](https://scikit-learn.org/stable/index.html) -- see also [Gaël Varoquaux 2023 interview](https://youtu.be/MaJRf9E-jtQ?t=223).
 
 Deep learning:
 
-- [PyTorch](https://pytorch.org/) (most advanced)
-- [TensorFlow](https://www.tensorflow.org/) (most cited)
-- [Keras](https://www.tensorflow.org/guide/keras) (easier interface to learn)
+- [PyTorch](https://pytorch.org/) (most advanced),
+- [TensorFlow](https://www.tensorflow.org/) (most cited), and
+- [Keras](https://www.tensorflow.org/guide/keras) (easier interface to learn).
 
 ## Does reading these materials make you a machine learning engineer?
 

@@ -8,18 +8,30 @@
 [tg_logo]: https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white
 
 MLMW is a downloadable reference that makes a clear and concise overview
-of machine learning that includes modelling concepts, tools and
-how to turn them into products that business can apply.
+of machine learning including the following topics:
 
-The overview is equipped with links to industry cases, reports, textbooks,
-summary articles and excercises that enable you to actually learn.
-Only limited number of passive learning resouces like videos or tutorials
-made it to the MLMW list.
+- modelling concepts and techniques (aka the "formulas"),
+- computer science and software tools (aka the "code"),
+- model and data productisation (aka the "money").
 
-Get the current version of MLMW:
+The overview is equipped with links to textbooks,
+reports, summary articles, industry cases and excercises
+that enable you to actually learn.
+Only limited number of passive learning resouces
+like [videos](videos.md)
+or tutorials made it to the MLMW list.
 
-1. Request access to [topic list on machine learning models, tools and productisation](https://docs.google.com/document/d/1mrfpg8J4eejjdAAaGywY797-3770lGe3DqJ5sd0E_60/edit#heading=h.5hihefsyv1km).
-2. Download [the public PDF](https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.7.0.pdf) or [view it online](https://docs.google.com/document/d/e/2PACX-1vT9ZkQJDDimZuPgBb7_hUJ40lm8LhqzL45HwIcYRYHw0AQkwA7pcqg0AIE7Gwf3QpAnZ34-BrFrWovO/pub).
+## Get access and download
+
+MLMW ships as a topic list, a longer guide and the website.
+
+| Artifact       | Intent                                                                      | Link                                                                                                                                                                                                                                                                                     |
+| -------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The topic list | A slim list of topics I wish I knew well (models, tools and productisation) | [Access granted upon request](https://docs.google.com/document/d/1mrfpg8J4eejjdAAaGywY797-3770lGe3DqJ5sd0E_60/edit#heading=h.5hihefsyv1km).                                                                                                                                              |
+| The MLMW guide | A longer list of topics with links and quotes.                              | [Get public PDF](https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.7.0.pdf) or [view online](https://docs.google.com/document/d/e/2PACX-1vT9ZkQJDDimZuPgBb7_hUJ40lm8LhqzL45HwIcYRYHw0AQkwA7pcqg0AIE7Gwf3QpAnZ34-BrFrWovO/pub) -- enjoy while files are open. |
+| Website        | Best of MLMW reclassified.                                                  | Browse at [https://trics.me](https://trics.me/).                                                                                                                                                                                                                                         |
+
+## Get the updates
 
 Subscribe for [MLMW guide updates](https://buttondown.email/mlmw):
 
