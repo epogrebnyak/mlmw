@@ -1,21 +1,17 @@
 # Beginner track for machine learning
 
-> Where do I start? What to read?
+| MML for math (2020)            | ISLP for classic ML (2023)      | DLS for deep learning (2024)   |
+| ------------------------------ | ------------------------------- | ------------------------------ |
+| ![](images/mml-book-cover.jpg) | ![](images/islp-book-cover.png) | ![](images/dls-book-cover.png) |
 
-Two free textbooks for math and classic machine learning (ML) 
-and a video course on deep learning (DL) 
-make a solid foundation for beginners:
+Two free textbooks for math and classic machine learning (ML)
+and a video course on deep learning (DL) make a solid entry track for beginners:
 
 - [Mathematics for Machine Learning (MML)][mml] by Marc Peter Deisenroth, A. Aldo Faisal and Cheng Soon Ong;
 - [Introduction to Statistical Learning with Python (ISLP)](https://www.statlearning.com/) by Gareth James, Daniela Witten, Trevor Hastie and Rob Tibshirani;
 - [Deep Learning Specialization][dls] by Andrew Ng.
 
-MML   | ISLP  | DLS 
-------|-------|------
-![](https://mml-book.github.io/static/images/mml-book-cover.jpg) | 
-![](https://images.squarespace-cdn.com/content/v1/5ff2adbe3fe4fe33db902812/8b373fbe-d1b4-4351-b803-0d3cd5bba1b0/ISLP_cover.png?format=200h) | ![](https://private-user-images.githubusercontent.com/9265326/329535365-017b77a2-d22f-43a3-8b38-5ccecce6381d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTUzMzQxNTksIm5iZiI6MTcxNTMzMzg1OSwicGF0aCI6Ii85MjY1MzI2LzMyOTUzNTM2NS0wMTdiNzdhMi1kMjJmLTQzYTMtOGIzOC01Y2NlY2NlNjM4MWQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDUxMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA1MTBUMDkzNzM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWU2NmNjMWY3NTVmYzg5ZTYxY2MwOTFlMGNkNWNkODFkNzc4MTRhMDdhODk1MzFkM2I5OTY4ZTllOWViZjgxYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.iJx9a50euMJlRSnVVEl08YLYRh70vD7g_Cqi1EcwgOI)
-
-Links to other textbooks and supplementary materials are provided below.
+Links to other textbooks and supplementary materials are also provided below.
 
 ## Roadmap
 
@@ -25,27 +21,27 @@ Math   ML       DL                  Subfields and data types
 
          +------------------------> Tabular data and time series
          |
-MML  -> ISLP  -> deeplearning.ai -> Text and speech (NLP) 
+MML  -> ISLP  -> deeplearning.ai -> Text and speech (NLP)
 (free)  (free)   Deep Learning      Transformers (the T in ChatGPT)
          |       Specialisation     Computer vision (CV)
          |       + any of           Reinforcement learning (RL)
          |       3 free textbooks
-         |           
+         |
         Practical manuals:
         - scipy lectures (free)
         - Muller (paid), Geron (paid) or Burkov (free preview)
 
 Python packages
 
-Math:     ML:           DL:                 
-- numpy   scikit-learn  - torch     
+Math:     ML:           DL:
+- numpy   scikit-learn  - torch
 - scipy                 - tf
-                        - keras                       
+                        - keras
 ```
 
 ## Prerequisites
 
-You will need a working knowledge of Python and ability to operate with mathematical concepts 
+You will need a working knowledge of Python and ability to operate with mathematical concepts
 and notation from linear algebra and calculus.
 
 ## Core path
@@ -100,12 +96,16 @@ You can supplement the core path above with the following:
   [Géron](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) (paid edition) or
   [Burkov](https://themlbook.com/) (free preview);
 
+- code collections like [ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch)
+  or [Kaggle competitions](https://www.kaggle.com/) (note that Kaggle is owned by Google --
+  hence emphasis on TensorFlow, not Pytorch);
+
 - review major textbooks by subfiled of machine learning:
-  [Jurafsky and Martin](https://web.stanford.edu/~jurafsky/slp3/) 
-  for natural language processing (NLP), 
+  [Jurafsky and Martin](https://web.stanford.edu/~jurafsky/slp3/)
+  for natural language processing (NLP),
   [several texts](https://www.reddit.com/r/computervision/comments/129e3gc/suggestions_for_some_best_books_on_computer_vision/)
   for computer vision (CV), and
-  [Sutton and Barto](http://incompleteideas.net/book/the-book-2nd.html) 
+  [Sutton and Barto](http://incompleteideas.net/book/the-book-2nd.html)
   for reinforcement learning (RL);
 
 - for popular attention and transformer architectures check out talks by
@@ -120,7 +120,7 @@ You can supplement the core path above with the following:
   [H2O](https://h2o.ai/wiki/) and
   [NVIDIA](https://www.nvidia.com/en-us/glossary/);
 
-- last but not least -- watch 
+- last but not least -- watch
   [StatQuest videos by Josh Starmer](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
   and [3Blue1Brown videos by Grant Sanderson](https://www.3blue1brown.com/).
 
@@ -150,7 +150,11 @@ Deep learning:
 
 ## Does reading these materials make you a machine learning engineer?
 
-Not until you make projects for real tasks on real data (where textbook examples do not play out that well).
+Not until you make projects
+for real tasks
+on real data
+with real contraints
+(that would be quite different from textbook examples).
 
 ## Not in scope
 
@@ -161,6 +165,7 @@ that are also important for a quantitative modeller or an engineer:
 - data processing, pipelines and model productisation;
 - experiment design and iterative workflows;
 - advanced topics in statistics and machine learning;
+- modelling methods outside machine learning;
 - domain knowledge, business sense and outcomes of ML adoption.
 
 Please refer to larger [MLMW guide](mlmw.md) for coverage of these topics.
