@@ -2,13 +2,8 @@
 
 [Introduction](./mlmw.md)
 [Beginner track](./beginner.md)
-
----
-
-# Boilerplate
-
-- [A few videos](videos.md)
-- [Interviews](interviews.md)
+[Interviews](interviews.md)
+[Video series](videos.md)
 
 ---
 
