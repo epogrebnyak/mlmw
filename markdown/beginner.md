@@ -10,6 +10,11 @@ make a solid foundation for beginners:
 - [Introduction to Statistical Learning with Python (ISLP)](https://www.statlearning.com/) by Gareth James, Daniela Witten, Trevor Hastie and Rob Tibshirani;
 - [Deep Learning Specialization][dls] by Andrew Ng.
 
+MML   | ISLP  | DLS 
+------|-------|------
+![](https://mml-book.github.io/static/images/mml-book-cover.jpg) | 
+![](https://images.squarespace-cdn.com/content/v1/5ff2adbe3fe4fe33db902812/8b373fbe-d1b4-4351-b803-0d3cd5bba1b0/ISLP_cover.png?format=200h) | ![](https://private-user-images.githubusercontent.com/9265326/329535365-017b77a2-d22f-43a3-8b38-5ccecce6381d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTUzMzQxNTksIm5iZiI6MTcxNTMzMzg1OSwicGF0aCI6Ii85MjY1MzI2LzMyOTUzNTM2NS0wMTdiNzdhMi1kMjJmLTQzYTMtOGIzOC01Y2NlY2NlNjM4MWQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDUxMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA1MTBUMDkzNzM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWU2NmNjMWY3NTVmYzg5ZTYxY2MwOTFlMGNkNWNkODFkNzc4MTRhMDdhODk1MzFkM2I5OTY4ZTllOWViZjgxYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.iJx9a50euMJlRSnVVEl08YLYRh70vD7g_Cqi1EcwgOI)
+
 Links to other textbooks and supplementary materials are provided below.
 
 ## Roadmap
