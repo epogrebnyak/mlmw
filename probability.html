@@ -184,7 +184,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="probability"><a class="header" href="#probability">Probability</a></h1>
+                        <h1 id="probability-and-statistics"><a class="header" href="#probability-and-statistics">Probability and statistics</a></h1>
 <h2 id="beginner"><a class="header" href="#beginner">Beginner</a></h2>
 <ul>
 <li><a href="https://seeing-theory.brown.edu/basic-probability/index.html">Seeing Theory</a> visual textbook.</li>
@@ -228,6 +228,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

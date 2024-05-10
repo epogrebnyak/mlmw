@@ -185,6 +185,7 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="beginner-track-for-machine-learning"><a class="header" href="#beginner-track-for-machine-learning">Beginner track for machine learning</a></h1>
+<h2 id="two-books-and-a-video-course"><a class="header" href="#two-books-and-a-video-course">Two books and a video course</a></h2>
 <div class="table-wrapper"><table><thead><tr><th>MML for math (2020)</th><th>ISLP for classic ML (2023)</th><th>DLS for deep learning (2024)</th></tr></thead><tbody>
 <tr><td><img src="images/mml-book-cover.jpg" alt="" /></td><td><img src="images/islp-book-cover.png" alt="" /></td><td><img src="images/dls-book-cover.png" alt="" /></td></tr>
 </tbody></table>
@@ -196,7 +197,7 @@ and a video course on deep learning (DL) make a solid entry track for beginners:
 <li><a href="https://www.statlearning.com/">Introduction to Statistical Learning with Python (ISLP)</a> by Gareth James, Daniela Witten, Trevor Hastie and Rob Tibshirani;</li>
 <li><a href="https://www.deeplearning.ai/courses/deep-learning-specialization/">Deep Learning Specialization</a> by Andrew Ng.</li>
 </ul>
-<p>Links to other textbooks and supplementary materials are also provided below.</p>
+<p>Links to other textbooks and supplementary materials are provided below.</p>
 <h2 id="roadmap"><a class="header" href="#roadmap">Roadmap</a></h2>
 <pre><code>Math   ML       DL                  Subfields and data types
 =====  =======  =================   ============================
@@ -389,6 +390,22 @@ Linux -> Python -> Data processing -> Cloud -> Orchestration
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
