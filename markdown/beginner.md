@@ -1,5 +1,7 @@
 # Beginner track for machine learning
 
+## Two books and a video course
+
 | MML for math (2020)            | ISLP for classic ML (2023)      | DLS for deep learning (2024)   |
 | ------------------------------ | ------------------------------- | ------------------------------ |
 | ![](images/mml-book-cover.jpg) | ![](images/islp-book-cover.png) | ![](images/dls-book-cover.png) |
@@ -11,7 +13,7 @@ and a video course on deep learning (DL) make a solid entry track for beginners:
 - [Introduction to Statistical Learning with Python (ISLP)](https://www.statlearning.com/) by Gareth James, Daniela Witten, Trevor Hastie and Rob Tibshirani;
 - [Deep Learning Specialization][dls] by Andrew Ng.
 
-Links to other textbooks and supplementary materials are also provided below.
+Links to other textbooks and supplementary materials are provided below.
 
 ## Roadmap
 

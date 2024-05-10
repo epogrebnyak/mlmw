@@ -1,4 +1,4 @@
-# Probability
+# Probability and statistics
 
 ## Beginner
 

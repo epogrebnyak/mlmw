@@ -1,8 +1,8 @@
 # Machine Learning My Way (MLMW) -- Early Access
 
-![Version number](https://img.shields.io/badge/May_6,_2024-v0.7.1-blue)
+![Version number](https://img.shields.io/badge/May_10,_2024-v0.8.0-blue)
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=flat&logo=Reddit&logoColor=white)](https://www.reddit.com/r/ml_my_way/)
-[![Subscribe](https://img.shields.io/badge/buttondown-mlmw-0069ff)](https://buttondown.email/mlmw)
+[![Subscribe](https://img.shields.io/badge/buttondown-mlmw-0069ff)](https://buttondown.email/mlmw/archive/)
 [![Telegram group][tg_logo]](https://t.me/ml_my_way)
 
 [tg_logo]: https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white
@@ -31,7 +31,9 @@ MLMW ships as a topic list, a longer guide and the website.
 | The MLMW guide | A longer list of topics with links and quotes.                              | [Get public PDF](https://github.com/epogrebnyak/mlmw/blob/main/MLMW_Machine_Learning_My_Way_v0.7.0.pdf) or [view online](https://docs.google.com/document/d/e/2PACX-1vT9ZkQJDDimZuPgBb7_hUJ40lm8LhqzL45HwIcYRYHw0AQkwA7pcqg0AIE7Gwf3QpAnZ34-BrFrWovO/pub) -- enjoy while files are open. |
 | Website        | Best of MLMW reclassified.                                                  | Browse at [https://trics.me](https://trics.me/).                                                                                                                                                                                                                                         |
 
-## Get the updates
+## Changelog
+
+- [0.8.0](https://buttondown.email/mlmw/archive/mlmw-v080-may-10-2024-three-artifacts-for-the/)
 
 Subscribe for [MLMW guide updates](https://buttondown.email/mlmw):
 
