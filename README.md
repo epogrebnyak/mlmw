@@ -7,11 +7,12 @@ MLMW (Machine Learning My Way) is a successor project to
 [Econometrics Navigator](https://epogrebnyak.github.io/econometrics-navigator/),
 a website that I did run in 2018-2020.
 
-[trics.me] is a shorthand for both econo*metrics* and model performance *metrics*.
+[trics.me](https://trics.me/) website name is a shorthand 
+for both econo*metrics* and model performance *metrics*.
 
 ## Follow updates
 
-- Visit [trics.me](https://trics.me/)
+- Visit [trics.me](https://trics.me/).
 - Subscribe to the [mailing list](https://buttondown.email/mlmw).
 - Join [r/ml_my_way subreddit](https://www.reddit.com/r/ml_my_way/).
 - Join [Telegram group](https://t.me/ml_my_way).
