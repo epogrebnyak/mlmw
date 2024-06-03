@@ -1,8 +1,8 @@
 # Machine Learning My Way (MLMW)
 
 This is the source repo for [trics.me](https://trics.me/) website
-which hosts a machine learning study guide with free open textbooks, review articles
-and discussions (mainly Reddit threads).
+which hosts a machine learning study guide with free textbooks, open review articles
+and selected Reddit discussions. 
 
 This is a successor project to [Econometrics Navigator](https://epogrebnyak.github.io/econometrics-navigator/),
 a website that I did run in 2018-2020.
