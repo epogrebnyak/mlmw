@@ -8,7 +8,7 @@ title = "Machine Learning My Way (MLMW)"
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
-curly-quotes = true
+smart-punctuation = true
 mathjax-support = false
 copy-fonts = true
 no-section-label = true
