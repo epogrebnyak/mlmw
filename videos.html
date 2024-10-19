@@ -96,7 +96,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mlmw.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="beginner.html">Beginner track</a></li><li class="chapter-item expanded affix "><a href="interviews.html">Interviews</a></li><li class="chapter-item expanded affix "><a href="videos.html" class="active">Video series</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Preliminaries</li><li class="chapter-item expanded "><div>Linear algebra</div></li><li class="chapter-item expanded "><div>Calculus</div></li><li class="chapter-item expanded "><a href="probability.html">Probability</a></li><li class="chapter-item expanded "><div>Statistics</div></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">MLMW Guide</li><li class="chapter-item expanded "><div>Models and methods</div></li><li class="chapter-item expanded "><div>Data types, sources and quality</div></li><li class="chapter-item expanded "><div>Research design to model productization</div></li><li class="chapter-item expanded "><div>Software tools</div></li><li class="chapter-item expanded "><div>Business change and society impact</div></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="mlmw.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="beginner.html">Beginner track</a></li><li class="chapter-item expanded affix "><a href="interviews.html">Interviews</a></li><li class="chapter-item expanded affix "><a href="videos.html" class="active">Video series</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Preliminaries</li><li class="chapter-item expanded "><div>Linear algebra</div></li><li class="chapter-item expanded "><div>Calculus</div></li><li class="chapter-item expanded "><a href="probability.html">Probability</a></li><li class="chapter-item expanded "><div>Statistics</div></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">MLMW Guide</li><li class="chapter-item expanded "><div>Models and methods</div></li><li class="chapter-item expanded "><div>Data types, sources and quality</div></li><li class="chapter-item expanded "><div>Research design to model productization</div></li><li class="chapter-item expanded "><div>Software tools</div></li><li class="chapter-item expanded "><div>Business change and society impact</div></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -233,22 +233,6 @@ They list resources, papers and books.”</p>
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
